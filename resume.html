@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title> Resume</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body class="resume-body">
+
+    <a href="index.html" class="back-btn">⟵ Back</a>
+
+    <div class="resume-container">
+
+        <div class="header">
+            <h1>Shrija</h1>
+            <p class="tagline">Computer Science and Engineering Student</p>
+        </div>
+
+        <div class="section fade">
+            <h2 class="section-title">Personal Info</h2>
+            <ul>
+                <li>Email: shrija@gmail.com</li>
+                <li>Phone: 9876543660</li>
+            </ul>
+        </div>
+
+        <div class="section fade">
+            <h2 class="section-title">Education</h2>
+            <div class="card">
+                <h3>Computer Science and Engineering</h3>
+                <p>Shri MadhwaVadiraja Institute of Technology and Management, Bhantakal, Udupi. <br>2023–2027</p>
+            </div>
+        </div>
+
+        <div class="section fade">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills">
+                <span class="skill">HTML</span>
+                <span class="skill">CSS</span>
+                <span class="skill">JS</span>
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        $(".fade").hide().fadeIn(900);
+        $(".skill").hover(function() {
+            $(this).toggleClass("skill-hover");
+        });
+    </script>
+
+</body>
+
+</html>

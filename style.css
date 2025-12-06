@@ -1,0 +1,72 @@
+.resume-body {
+    background: #eef1f7;
+    font-family: Poppins, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.resume-container {
+    width: 70%;
+    margin: auto;
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.header {
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 40px;
+    margin: 0;
+}
+
+.tagline {
+    color: gray;
+}
+
+.section-title {
+    border-left: 5px solid #0984e3;
+    padding-left: 10px;
+    color: #0984e3;
+    margin-top: 25px;
+}
+
+.card {
+    background: #f1f2f6;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.skills {
+    margin-top: 10px;
+}
+
+.skill {
+    display: inline-block;
+    background: #74b9ff;
+    padding: 8px 12px;
+    margin: 5px;
+    border-radius: 15px;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.skill-hover {
+    background: #0984e3 !important;
+    transform: scale(1.1);
+}
+
+.back-btn {
+    background: #40739e;
+    color: white;
+    padding: 8px 18px;
+    border-radius: 8px;
+    text-decoration: none;
+    margin-bottom: 20px;
+    display: inline-block;
+}
